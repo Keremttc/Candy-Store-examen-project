@@ -20,6 +20,12 @@ html{
     overflow-x: hidden;
 }
 
+section{
+padding: 2rem 9%;
+}
+
+
+
 header{
     position: fixed;
     top:0; left:0; right: 0;
@@ -71,6 +77,37 @@ header .fa-bars{
     display: none;
 }
 
+.home{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(images/hero4.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.home .content{
+    max-width: 50rem;
+}
+
+.home .content h3{
+    font-size: 6rem;
+    color:#333;
+}
+
+.home .content span{
+    font-size: 3.5rem;
+    color:var(--pink);
+    padding: 1rem 0;
+    line-height: 1.5;
+}
+
+.home .content span{
+    font-size: 1.5rem;
+    color:#999;
+    padding: 1rem 0;
+    line-height: 1.5;
+}
 
 
 
@@ -96,8 +133,7 @@ header .fa-bars{
 
 
 
-
-/* media queries */
+/* media queries voor mobiel */ 
 @media (max-width:991px) {
 
     html{
