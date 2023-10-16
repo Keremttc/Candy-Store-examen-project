@@ -24,6 +24,20 @@ section{
 padding: 2rem 9%;
 }
 
+.heading{
+    text-align: center;
+    font-size: 4rem;
+    color: #333;
+    padding: 1rem;
+    margin: 2rem 0;
+    background: rgb(255, 51, 153,.05);
+}
+
+
+
+
+
+
 .btn{
     display: inline-block;
     margin-top: 1rem;
@@ -122,11 +136,6 @@ header .fa-bars{
     padding: 1rem 0;
     line-height: 1.5;
 }
-
-
-
-
-
 
 
 
