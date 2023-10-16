@@ -222,6 +222,14 @@ header .fa-bars{
         position: relative;
       }
 
+      .products .box-container .box .image{
+        position: relative;
+        text-align: center;
+        padding-top: 2rem;
+        overflow: hidden;
+
+      }
+
       .products .box-container .box .image img{
         height: 25rem;
       }
@@ -230,3 +238,27 @@ header .fa-bars{
         transform: scale(1.1);
       }
 
+      .products .box-container .box .image .icons{
+        position: absolute;
+        bottom: 0; left: 0; right: 0;
+        display: flex;
+      }
+
+      .products .box-container .box .image .icons a{
+        height: 5rem;
+        line-height: 5rem;
+        font-size: 2rem;
+        width: 50%;
+        background:var(--pink);
+        color:#fff;
+      }
+
+      .products .box-container .box .image .icons .cart-btn{
+        border-left: 1.re, solid #fff7;
+        border-right: 1.re, solid #fff7;
+        width: 100%;
+      }
+
+      .products .box-container .box .image .icons a:hover{
+        background: #333;
+      }
