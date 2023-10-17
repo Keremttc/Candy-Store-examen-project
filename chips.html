@@ -1,41 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chopper's Candy-Store</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
-    
-   
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chopper's Candy-Store</title>
+
+  <!-- font link  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+  <!-- css file link -->
+  <link rel="stylesheet" href="style.css">
+
+
 </head>
- 
 <body>
 
- <section id="header">
-    <!-- Link naar de logo   -->
-  <a href="#"><img src="images/choppper.png" class="logo" alt=""></a>
+  <!-- link naar logo -->
+  
+  
+  <!-- header begin sectie -->
 
-  <div>
-    <!-- navigatie hieronder -->
-      <ul id="navbar">
-    <li><a href="index.html">Home</a></li>
-    <li><a href= "snoep.html" href="snoep.html">Snoep</a></li>
-    <li><a href="class="active" href="chips.html">Chips</a></li>
-    <li><a href="softdrink.html">Softdrink</a></li>
-    <li><a href="contact.html">Contact</a></li>
-    <li><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
-    </ul>
+  <header>
+
+    <input type ="checkbox" name="" id="toggler">
+    <label for="toggler" class="fas fa-bars"></label>
+
+   
+    <a href="#"><img src="images/choppper.png" class="logo" alt=""></a>
+
+    <nav class="navbar">
+    <a href="#home">Home</a>
+    <a href="snoep.html">snoep</a>
+    <a href="chips.html">Chips</a>
+    <a href=softdrink.html>Softdrink</a>
+    <a href=Contact.html>Contact</a>
+  </nav>
+
+  <div class="icons">
+    <a href="#" class="fas fa-heart"></a>
+    <a href="#" class="fas fa-shopping-cart"></a>
+    <a href="#" class="fas fa-user"></a>
   </div>
- </section>
+
+    
+
+
+
+  </header>
+
+  <!-- header sectie eindigt -->
+
+  <!-- home sectie begin -->
+
+  <section class="home" id="home">
+    
+    <div class="content">
+      <h3>Overheerlijke chips</h3>
+      <span>Hieronder ons chips assortiment!</span>
+  
+
+  </section>
+
+  <!-- home sectie eindigt -->
+
+
+  <!-- product sectie start -->
+
+  <section class="products" id="products">
+
+    <h1 class="heading"><span>chipsmixen</span> </h1>
+
+    <div class="box-container">
+
+      <div class="box">
+        <div class="image">            
+            <img src="images/Takis.png" alt="">
+            <div class="icons">
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="cart-btn">Toevoegen</a>
+              <a href="#" class="fas fa-share"></a>
+          </div>
+        </div>
+        <div class="content">
+          <h3>Takis fuego</h3>
+          <div class="price">€3.99</div>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="image">            
+          <img src="images/Cheetos.png" alt="">
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="cart-btn">Toevoegen</a>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+      </div>
+      <div class="content">
+        <h3>Cheetos</h3>
+        <div class="price">€3.99</div>
+    </div>
+  </div>
 
 
 
 
 
-    <!-- javascript gelinked -->
-    <script src="script.js"></script>
+
+
+
+
+
+  </div>
+
+  </section>
+
+
+
+
+
+
+
+  
+  <!-- product sectie eindigt -->
+
+
+
+
 </body>
-
 </html>
