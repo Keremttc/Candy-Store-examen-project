@@ -42,9 +42,6 @@
     <a href="#" class="fas fa-user"></a>
   </div>
 
-    
-
-
 
   </header>
 
