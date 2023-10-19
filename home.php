@@ -39,20 +39,10 @@
       <a href="#" class="btn">shop nu</a>
     </div>
 
-
-
-
   </section>
 
   <!-- home sectie eindigt -->
 
-
-
-
-
-
-
-  
 
 </body>
 </html>
