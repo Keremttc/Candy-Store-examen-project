@@ -7,11 +7,11 @@
 <a href="home.html"><img src="images/choppper.png" class="logo" alt=""></a>
 
 <nav class="navbar">
-<a href="home.html">Home</a>
-<a href="snoep.html" href="snoep.html">snoep</a>
-<a href="chips.html">Chips</a>
-<a href="softdrink.html">Softdrink</a>
-<a href="Contact.html">Contact</a>
+<a href="home.php">Home</a>
+<a href="snoep.php" href="snoep.html">snoep</a>
+<a href="chips.php">Chips</a>
+<a href="softdrink.php">Softdrink</a>
+<a href="Contact.php">Contact</a>
 </nav>
 
 <div class="icons">
