@@ -4,7 +4,7 @@
 <label for="toggler" class="fas fa-bars"></label>
 
 
-<a href="home.html"><img src="images/choppper.png" class="logo" alt=""></a>
+<a href="home.php"><img src="images/choppper.png" class="logo" alt=""></a>
 
 <nav class="navbar">
 <a href="home.php">Home</a>
