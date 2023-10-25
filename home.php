@@ -39,6 +39,8 @@
       <a href="#" class="btn">shop nu</a>
     </div>
 
+    <!-- <?php include "includes/db.php";?> -->
+
   </section>
 
   <!-- home sectie eindigt -->

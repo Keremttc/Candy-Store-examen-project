@@ -1,5 +1,4 @@
 
-
 <input type ="checkbox" name="" id="toggler">
 <label for="toggler" class="fas fa-bars"></label>
 
