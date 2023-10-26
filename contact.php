@@ -43,15 +43,15 @@
 
   <section class="contact" id="contact">
 
-    <h1 class="heading"> <span> contact </span> us </h1>
+    <h1 class="heading"> <span> Contacteer </span> ons </h1>
 
     <div class="row">
 
         <form actions="">
-            <input type="text" placeholder="name" class="box">
-            <input type="email" placeholder="email" class="box">
-           <textarea name="" class="box" placeholder="message" id="" cols="30" rows="10"></textarea>
-            <input type="submit" value="send message" class="btn">
+            <input type="text" placeholder="Naam" class="box">
+            <input type="email" placeholder="Email" class="box">
+           <textarea name="" class="box" placeholder="Bericht" id="" cols="30" rows="10"></textarea>
+            <input type="submit" value="Verzend bericht" class="btn">
         </form>
 
 
