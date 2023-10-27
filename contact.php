@@ -49,7 +49,9 @@
 
         <form actions="">
             <input type="text" placeholder="Naam" class="box">
+            <br>
             <input type="email" placeholder="Email" class="box">
+            <br>
            <textarea name="" class="box" placeholder="Bericht" id="" cols="30" rows="10"></textarea>
             <input type="submit" value="Verzend bericht" class="btn">
         </form>
