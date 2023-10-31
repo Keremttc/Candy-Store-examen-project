@@ -24,7 +24,7 @@
 
 <style>
 
-input[type=text] {
+input[name=search] {
   width: 130px;
   box-sizing: border-box;
   border: 2px solid #ccc;
@@ -39,17 +39,17 @@ input[type=text] {
   transition: width 0.4s ease-in-out;
 }
 
-input[type=text]:focus {
+input[name=search]:focus {
   width: 100%;
 }
-    input[type=text] {
+    input[name=search] {
   width: 130px;
   -webkit-transition: width 0.4s ease-in-out;
   transition: width 0.4s ease-in-out;
     }
 
     /* When the input field gets focus, change its width to 100% */
-    input[type=text]:focus {
+    input[name=search]:focus {
     width: 100%;
     }
 </style>

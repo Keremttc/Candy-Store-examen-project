@@ -41,7 +41,9 @@
 
   <!-- contact sectie start -->
 
-  <section class="contact" id="contact">
+  <?php include "includes/contact_form.php";?>
+
+  <!-- <section class="contact" id="contact">
 
     <h1 class="heading"> <span> Contacteer </span> ons </h1>
 
@@ -60,18 +62,9 @@
     </div>
 
 
-  </section>
-
-
-
+  </section> -->
 
   <!-- contact sectie eindigt -->
-
-
-
-
-
-  
 
 </body>
 </html>
