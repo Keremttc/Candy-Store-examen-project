@@ -1,6 +1,6 @@
 
 
-<div class="main-menu"> 
+< 
 
 <input type="checkbox" name="" id="toggler">
 <label for="toggler" class="fas fa-bars"></label>
@@ -21,5 +21,5 @@
     <a href="winkelwagen.php" class="fas fa-shopping-cart"></a>
     <a href="#" class="fas fa-user"></a>
 </div>
-</div>
+
 

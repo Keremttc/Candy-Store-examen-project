@@ -55,7 +55,7 @@ padding: 2rem 9%;
 }
 
 
-.main-menu {
+header{
     position: fixed;
     top:0; left:0; right: 0;
     background: #e3c0d8;
@@ -67,36 +67,36 @@ padding: 2rem 9%;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
 }
 
-.main-menu  .logo{
+header .logo{
     width: 75px;    
     cursor: pointer;
 }
 
-.main-menu  .navbar a{
+header  .navbar a{
     font-size: 1rem;
     padding: 0 1.5rem;
     color: #666;
 }
 
-.main-menu  .navbar a:hover{
+header  .navbar a:hover{
     color:var(--pink);
 }
 
-.main-menu  .icons a{
+header  .icons a{
     font-size: 1.5rem;
     color: #333;
     margin-left: 1.5rem
 }
 
-.main-menu  .icons a:hover{
+header  .icons a:hover{
     color:var(--pink);
 }
 
-.main-menu  #toggler{
+header  #toggler{
     display: none;
 }
 
-.main-menu  .fa-bars{
+header .fa-bars{
     font-size: 2rem;
     color: #333;
     border-radius: .5rem;
@@ -147,7 +147,7 @@ padding: 2rem 9%;
         font-size: 55%;
     }
 
-    .main-menu {
+    header {
         padding:2rem;
     }
 
@@ -180,22 +180,22 @@ padding: 2rem 9%;
 
 
 @media (max-width:768px){
-  .main-menu  .fa-bars{
+  header .fa-bars{
         display: block;
      }
 
-     .main-menu  .navbar{
+     header  .navbar{
         position:absolute;
         top:100%; left:0; right:0;
         background: #e3c0d8;
         border-top: .1rem solid rgba(0,0,0,.1);
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
         }
-        .main-menu  #toggler:checked ~ .navbar{
+        header  #toggler:checked ~ .navbar{
             clip-path:polygon(0 0, 100% 0, 100% 100%, 0% 100%);
         }
 
-        .main-menu  .navbar a{
+        header  .navbar a{
         margin: 1.5rem;
         padding:1.5rem;
         background: #fff;
