@@ -33,15 +33,16 @@
   <section class="home" id="home">
 
     <div class="content">
-      <h3>Vragen, problemen? stel ze hieronder</h3>
+      <h3>Vragen, problemen? stel ze hier!</h3>
     </div>
+
+    <?php include "includes/contact_form.php";?>
+
   </section>
 
   <!-- home sectie eindigt -->
 
   <!-- contact sectie start -->
-
-  <?php include "includes/contact_form.php";?>
 
   <!-- <section class="contact" id="contact">
 

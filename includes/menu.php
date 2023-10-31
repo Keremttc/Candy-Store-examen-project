@@ -1,4 +1,5 @@
-<?php include "includes/db.php"; ?> 
+<?php include "includes/db.php";
+       ?> 
 
 <input type="checkbox" name="" id="toggler">
 <label for="toggler" class="fas fa-bars"></label>
@@ -18,7 +19,7 @@
     <input type="text" name="search" placeholder="Search.."> 
     <a href="#" class="fas fa-heart"></a>
     <a href="winkelwagen.php" class="fas fa-shopping-cart"></a>
-    <a href="#" class="fas fa-user"></a>
+    <a href="#" id="openModal" class="fas fa-user"></a>
 
 </div>
 
