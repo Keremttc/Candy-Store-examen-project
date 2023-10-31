@@ -112,18 +112,8 @@
   </div>
 
   </section>
-
-
-
-
-
-
-
   
   <!-- product sectie eindigt -->
-
-
-
 
 </body>
 </html>
