@@ -49,42 +49,52 @@
     <h1 class="heading"><span>snoepmixen</span> </h1>
 
     <div class="box-container">
+<?php
+    $sql =     "SELECT 
+                producten, 
+                FROM 
+                'chopper-candy'";
 
-      <div class="box">
-        <div class="image">            
-            <img src="images/sourpatch.png" alt="">
-            <div class="icons">
-              <a href="#" class="fas fa-heart"></a>
-              <a href="#" class="cart-btn">Toevoegen</a>
-              <a href="#" class="fas fa-share"></a>
-          </div>
-        </div>
-        <div class="content">
-          <h3>Sour patch kids</h3>
-          <div class="price">€2.99</div>
-      </div>
-    </div>
+                 $stmt = $pdo->prepare($sql);
+                 if (!$stmt->execute()) {
+                     exit();
+                 }
 
-    <div class="box">
-      <div class="image">            
-          <img src="images/Nerds.png" alt="">
-          <div class="icons">
-            <a href="#" class="fas fa-heart"></a>
-            <a href="#" class="cart-btn">Toevoegen</a>
-            <a href="#" class="fas fa-share"></a>
-        </div>
-      </div>
-      <div class="content">
-        <h3>Nerds</h3>
-        <div class="price">€1.99</div>
-    </div>
+                 while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
+                  ?>
+
+
+       <div class="box">
+         <div class="image">            
+             <img src="images/sourpatch.png" alt="">
+             <div class="icons">
+               <a href="#" class="fas fa-heart"></a>
+               <a href="#" class="cart-btn">Toevoegen</a>
+               <a href="#" class="fas fa-share"></a>
+           </div>
+         </div>
+         <div class="content">
+           <h3>Sour patch kids</h3>
+           <div class="price">€2.99</div>
+       </div>
+     </div>
+
+    <?php } ?>
+
+    <!-- <div class="box">
+    --   <div class="image">            
+    --       <img src="images/Nerds.png" alt="">
+    --       <div class="icons">
+    --         <a href="#" class="fas fa-heart"></a>
+    --         <a href="#" class="cart-btn">Toevoegen</a>
+    --         <a href="#" class="fas fa-share"></a>
+    --     </div>
+    --   </div>
+    --   <div class="content">
+    --     <h3>Nerds</h3>
+    --     <div class="price">€1.99</div>
+    -- </div> -->
   </div>
-
-
-
-
-
-
 
 
 
