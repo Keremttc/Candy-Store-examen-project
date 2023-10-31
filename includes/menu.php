@@ -1,8 +1,4 @@
-
-
-< 
-
-<input type="checkbox" name="" id="toggler">
+ <input type="checkbox" name="" id="toggler">
 <label for="toggler" class="fas fa-bars"></label>
 
 <a href="home.php"><img src="images/choppper.png" class="logo" alt=""></a>
