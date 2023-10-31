@@ -39,13 +39,13 @@
     <h2>Registreren</h2>
     <br>
     <form>
-      <label for="username">Username:</label>
+      <label for="username">Gebruikersnaam:</label>
       <br>
       <input type="text" id="username" name="username"><br><br>
-      <label for="password">Password:</label>
+      <label for="password">Wachtwoord:</label>
       <br>
       <input type="password" id="password" name="password"><br><br>
-      <button type="submit">Register</button>
+      <button class="register" type="submit">Register</button>
     </form>
   </div>
 </div>

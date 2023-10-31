@@ -384,6 +384,7 @@ header .fa-bars{
           text-decoration: none;
           cursor: pointer;
         }
+
         input[name="username"], input[type="password"] {
           width: 50%;
           padding: 10px;
@@ -391,4 +392,13 @@ header .fa-bars{
           margin-bottom: 15px;
           border: 1px solid #ccc;
           border-radius: 3px;
+      }
+
+      .register {
+        background-color:  black;
+        text-align: center; 
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 1.0em;
+        color: white;
       }
