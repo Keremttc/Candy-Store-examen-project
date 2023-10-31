@@ -13,15 +13,11 @@
 
 
 </head>
-<body>
-
-  <!-- link naar logo -->
-  
+<body>  
   
   <!-- header begin sectie -->
 
   <header>
-
   
   <?php include "includes/menu.php"; ?>
 
@@ -44,6 +40,9 @@
       <a href="#" class="btn">shop nu</a>
     </div>
 
+
+    <!-- Error reporting -->
+    
     <!-- <?php
 
           ini_set('display_errors', '1');
@@ -59,7 +58,6 @@
   </section>
 
   <!-- home sectie eindigt -->
-
 
 </body>
 </html>

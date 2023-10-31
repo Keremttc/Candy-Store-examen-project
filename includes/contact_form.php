@@ -69,9 +69,9 @@
             <br>
             <p style="font-weight:bold;">Beschikbaarheid:</p>
             <br>
-            <p>Maandag - Vrijdag: <br>9:00 - 18:00</p>
-            <p>Zaterdag: <br>10:00 - 14:00 </p>
-            <p>Zondag: Gesloten</p>
+            <p style="font-style:italic;">Maandag - Vrijdag: <br>9:00 - 18:00</p>
+            <p style="font-style:italic;">Zaterdag: <br>10:00 - 14:00 </p>
+            <p style="font-style:italic;">Zondag: Gesloten</p>
         </div>
         <div id="contact-form">
             <h1>Contact</h1>
