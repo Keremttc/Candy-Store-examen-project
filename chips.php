@@ -50,60 +50,55 @@
 
     <div class="box-container">
 
-      <div class="box">
-        <div class="image">            
-            <img src="images/Takis.png" alt="">
-            <div class="icons">
-              <a href="#" class="fas fa-heart"></a>
-              <a href="#" class="cart-btn">Toevoegen</a>
-              <a href="#" class="fas fa-share"></a>
-          </div>
-        </div>
-        <div class="content">
-          <h3>Takis fuego</h3>
-          <div class="price">€3.99</div>
-      </div>
-    </div>
 
-    <div class="box">
-      <div class="image">            
-          <img src="images/Cheetos.png" alt="">
-          <div class="icons">
-            <a href="#" class="fas fa-heart"></a>
-            <a href="#" class="cart-btn">Toevoegen</a>
-            <a href="#" class="fas fa-share"></a>
-        </div>
-      </div>
-      <div class="content">
-        <h3>Cheetos</h3>
-        <div class="price">€3.99</div>
-    </div>
+    <?php
+    $sql =     "SELECT 
+                producten.id AS 'product_id',
+                producten.product AS 'product_naam',
+                producten.productsoort AS 'product_soort',
+                producten.prijs AS 'prijs',
+                producten.image AS 'image'
+                FROM 
+                `producten`
+                WHERE 
+                producten.productsoort = 'chips'";
+
+                 $stmt = $pdo->prepare($sql);
+                 if (!$stmt->execute()) {
+                     exit();
+                 }
+
+                 while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
+                  ?>
+
+                <div class="box">
+                        <div class="image">            
+                            <img src="<?php echo $row['image']?>" alt="">
+                            <div class="icons">
+                              <a href="#" class="fas fa-heart"></a>
+                              <a href="#" class="cart-btn">Toevoegen</a>
+                              <a href="#" class="fas fa-share"></a>
+                          </div>
+                        </div>
+                        <div class="content">
+                          <h3><?php echo $row['product_naam'] ?></h3>
+                          <div class="price">€<?php echo $row['prijs'] ?></div>
+                      </div>
+                    </div>
+
+
+    <?php } ?>
+
+
+
+
   </div>
-
-
-
-
-
-
-
-
-
 
   </div>
 
   </section>
 
-
-
-
-
-
-
-  
   <!-- product sectie eindigt -->
-
-
-
 
 </body>
 </html>

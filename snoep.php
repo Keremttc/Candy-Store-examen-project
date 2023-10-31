@@ -51,9 +51,15 @@
     <div class="box-container">
 <?php
     $sql =     "SELECT 
-                producten, 
+                producten.id AS 'product_id',
+                producten.product AS 'product_naam',
+                producten.productsoort AS 'product_soort',
+                producten.prijs AS 'prijs',
+                producten.image AS 'image'
                 FROM 
-                'chopper-candy'";
+                `producten`
+                WHERE 
+                producten.productsoort = 'snoep'";
 
                  $stmt = $pdo->prepare($sql);
                  if (!$stmt->execute()) {
@@ -64,9 +70,11 @@
                   ?>
 
 
+            
+
        <div class="box">
          <div class="image">            
-             <img src="images/sourpatch.png" alt="">
+             <img src="<?php echo $row['image']?> " alt="">
              <div class="icons">
                <a href="#" class="fas fa-heart"></a>
                <a href="#" class="cart-btn">Toevoegen</a>
@@ -74,12 +82,14 @@
            </div>
          </div>
          <div class="content">
-           <h3>Sour patch kids</h3>
-           <div class="price">€2.99</div>
+           <h3><?php echo $row['product_naam']?></h3>
+           <div class="price">€<?php echo $row['prijs'] ?></div>
        </div>
      </div>
 
     <?php } ?>
+
+    <!-- <?php echo $sql; ?> -->
 
     <!-- <div class="box">
     --   <div class="image">            

@@ -44,7 +44,17 @@
       <a href="#" class="btn">shop nu</a>
     </div>
 
-    <!-- <?php include "includes/db.php";?> -->
+    <!-- <?php
+
+          ini_set('display_errors', '1');
+
+          ini_set('display_startup_errors', '1');
+
+          error_reporting(E_ALL);
+    
+            ?> -->
+
+
 
   </section>
 
