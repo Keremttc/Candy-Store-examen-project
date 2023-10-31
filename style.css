@@ -55,7 +55,7 @@ padding: 2rem 9%;
 }
 
 
-header{
+.main-menu {
     position: fixed;
     top:0; left:0; right: 0;
     background: #e3c0d8;
@@ -67,36 +67,36 @@ header{
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
 }
 
-header .logo{
+.main-menu  .logo{
     width: 75px;    
     cursor: pointer;
 }
 
-header .navbar a{
+.main-menu  .navbar a{
     font-size: 1rem;
     padding: 0 1.5rem;
     color: #666;
 }
 
-header .navbar a:hover{
+.main-menu  .navbar a:hover{
     color:var(--pink);
 }
 
-header .icons a{
+.main-menu  .icons a{
     font-size: 1.5rem;
     color: #333;
     margin-left: 1.5rem
 }
 
-header .icons a:hover{
+.main-menu  .icons a:hover{
     color:var(--pink);
 }
 
-header #toggler{
+.main-menu  #toggler{
     display: none;
 }
 
-header .fa-bars{
+.main-menu  .fa-bars{
     font-size: 2rem;
     color: #333;
     border-radius: .5rem;
@@ -147,7 +147,7 @@ header .fa-bars{
         font-size: 55%;
     }
 
-    header{
+    .main-menu {
         padding:2rem;
     }
 
@@ -163,23 +163,39 @@ header .fa-bars{
 
 }
 
+.announcement-bar {
+  position: sticky;
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  font-size: 16px;
+  top: 140px;
+}
+
+.announcement-bar p {
+  margin: 0;
+  font-weight: bold;
+}
+
+
 @media (max-width:768px){
-    header .fa-bars{
+  .main-menu  .fa-bars{
         display: block;
      }
 
-     header .navbar{
+     .main-menu  .navbar{
         position:absolute;
         top:100%; left:0; right:0;
         background: #e3c0d8;
         border-top: .1rem solid rgba(0,0,0,.1);
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
         }
-        header #toggler:checked ~ .navbar{
+        .main-menu  #toggler:checked ~ .navbar{
             clip-path:polygon(0 0, 100% 0, 100% 100%, 0% 100%);
         }
 
-        header .navbar a{
+        .main-menu  .navbar a{
         margin: 1.5rem;
         padding:1.5rem;
         background: #fff;

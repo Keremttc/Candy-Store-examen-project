@@ -22,9 +22,14 @@
 
   <header>
 
+  
   <?php include "includes/menu.php"; ?>
 
   </header>
+  <div class="announcement-bar">
+    <p>🎉 GRATIS VERZENDING BIJ BESTELLINGEN BOVEN €50 🚚</p>
+  </div>
+
 
   <!-- header sectie eindigt -->
 
