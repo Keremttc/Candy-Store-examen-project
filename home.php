@@ -114,6 +114,12 @@
       </div>
 
 
+      <div class="col install">
+        <div class="row">
+          <p>Secured payments </p>
+          <img src="images/pay.png" alt="">
+      </div>
+
       <div class="copyright">
         <p> © 2023, Chopper's Candy-Store - All rights reserved</p>
         <div>
