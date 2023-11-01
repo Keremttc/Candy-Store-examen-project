@@ -115,25 +115,9 @@
         <p> © 2023, Chopper's Candy-Store - HTML PHP CSS JAVASCRIPT</p>
         <div>
 
-
-
     </footer>
 
-
-
-
-
-<!-- footer sectie eindigt -->
-
-
-
-
-
-
-
-
-
-
+    <!-- footer sectie eindigt -->
 
 
 </body>

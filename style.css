@@ -407,6 +407,7 @@ header .fa-bars{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        background-color: #e3c0d8;
       }
 
       footer .col {
