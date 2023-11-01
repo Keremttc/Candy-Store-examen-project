@@ -87,6 +87,8 @@
       <div class="col">
         <h4>contact</h4>
         <p><strong>Adres:</strong> Westcoast</p>
+        <p><strong>KVK:</strong> 70560978</p>
+        <p><strong>BTW nummer:</strong> NL858374511B01</p>
         <p><strong>Telefoonnummer:</strong> 05494939</p>
         <p><strong>Uren beschikbaar:</strong> 10:00 - 17:00 Ma - Vrij</p>
       </div>
@@ -111,8 +113,9 @@
         <a href="contact.php">Help</a>
       </div>
 
+
       <div class="copyright">
-        <p> © 2023, Chopper's Candy-Store - HTML PHP CSS JAVASCRIPT</p>
+        <p> © 2023, Chopper's Candy-Store - All rights reserved</p>
         <div>
 
     </footer>
