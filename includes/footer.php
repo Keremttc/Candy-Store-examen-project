@@ -23,7 +23,6 @@
       
       <div class="col">
         <h4>Mijn account</h4>
-        <a href="#">Log in</a>
         <a href="#">Bekijk winkelwagen</a>
         <a href="#">Bekijk favorieten</a>
         <a href="#">Track mijn order</a>
