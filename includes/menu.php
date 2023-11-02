@@ -1,5 +1,4 @@
-<?php include "includes/db.php";
-       ?> 
+<?php include "includes/db.php";?> 
 
 <input type="checkbox" name="" id="toggler">
 <label for="toggler" class="fas fa-bars"></label>
@@ -15,7 +14,7 @@
 </nav>
 
 
-<input type="text" class="search" placeholder="Search" name="search" />
+<input type="search" id="search" placeholder="Search">
 <div class="icons">
     <!-- <a href="#" class="fa fa-search"></a> -->
     <a href="#" class="fas fa-heart"></a>
@@ -27,7 +26,7 @@
 <style>
 
 /* search bar styling */
-.search {
+#search {
   padding: 0.5em;
   font-size: 1em;
   border: 0;
@@ -44,4 +43,25 @@
 }
 
 </style>
+
+<script>
+  const searchInput = document.getElementById('search');
+
+  searchInput.addEventListener('change', function() {
+    const searchValue = this.value.trim().toLowerCase(); 
+
+    if (searchValue === 'snoep') {
+      window.location.href = '/Candy-Store-examen-project/snoep.php';
+    } else if (searchValue === 'chips') {
+      window.location.href = '/Candy-Store-examen-project/chips.php';
+    } else if (searchValue === 'drinken') {
+      window.location.href = '/Candy-Store-examen-project/softdrink.php';
+    } else if (searchValue === 'contact') {
+      window.location.href = '/Candy-Store-examen-project/contact.php';
+    } else {
+      // Pagina bestaat niet alert
+      alert('Kon pagina niet vinden, probeer nogmaals.');
+    }
+  });
+</script>
 
