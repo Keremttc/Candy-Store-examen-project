@@ -64,6 +64,10 @@
     </style>
 </head>
 <body>
+
+
+        <!-- Contact form start  -->
+
     <div id="contact-container">
         <div id="contact-info">
             <h1>Chopper's <br> Candy Store</h1>
@@ -90,5 +94,8 @@
             </form>
         </div>
     </div>
+    
+        <!-- Contact form eind  -->
+
 </body>
 </html>

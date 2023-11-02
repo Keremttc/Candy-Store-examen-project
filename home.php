@@ -60,22 +60,6 @@
       <a href="#" class="btn">shop nu</a>
 
     </div>
-
-
-    <!-- Error reporting -->
-    
-    <!-- <?php
-
-          ini_set('display_errors', '1');
-
-          ini_set('display_startup_errors', '1');
-
-          error_reporting(E_ALL);
-    
-            ?> -->
-
-
-
   </section>
 
   <!-- home sectie eindigt -->
@@ -86,6 +70,18 @@
 <?php include "includes/footer.php"; ?>
 
 <script src="script.js"></script> 
+
+    <!-- Error reporting -->
+    
+<!-- <?php
+
+      ini_set('display_errors', '1');
+
+      ini_set('display_startup_errors', '1');
+
+      error_reporting(E_ALL);
+
+?> -->
 
 </html>
 

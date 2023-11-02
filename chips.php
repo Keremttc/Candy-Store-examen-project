@@ -14,10 +14,6 @@
 
 </head>
 <body>
-
-  <!-- link naar logo -->
-  
-  
   <!-- header begin sectie -->
 
   <header>
@@ -46,7 +42,7 @@
 
   <section class="products" id="products">
 
-    <h1 class="heading"><span>chipsmixen</span> </h1>
+    <h1 class="heading"><span>Chipsmixen</span> </h1>
 
     <div class="box-container">
 
@@ -91,14 +87,9 @@
 
     <?php } ?>
 
-
-
-
-  </div>
-
-  </div>
-
-  </section>
+                 </div>
+                    </div>
+                      </section>
 
   <!-- product sectie eindigt -->
 

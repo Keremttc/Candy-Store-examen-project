@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Payment</title>
+    <title>Betalen</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -61,8 +61,10 @@
     </style>
 </head>
 <body>
+ 
+        <!-- Betaalgegevens form div start -->
     <div class="container">
-        <h2>Betaalgegevens  </h2>
+        <h2>Betaalgegevens</h2>
         <form>
             <label for="cardNumber">Kaart Nummer</label>
             <input type="text" id="cardNumber" name="cardNumber" placeholder="1234 5678 9012 3456" required>
@@ -98,5 +100,7 @@
             <button type="submit">Betaling Bevestigen</button>
         </form>
     </div>
+
+            <!-- Betaalgegevens form div eind -->
 </body>
 </html>

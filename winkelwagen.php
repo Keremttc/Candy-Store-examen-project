@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Checkout</title>
+    <title>Winkelwagen</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -91,6 +91,8 @@
             <span>€89.97</span>
         </div>
         <a href="betaalpagina.php"><button type="submit">Betalen</button></a>
+        <br>
+        <a href="home.php"><button type="submit">Home</button></a>
     </div>
 </body>
 </html>

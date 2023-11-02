@@ -46,7 +46,7 @@
 
   <section class="products" id="products">
 
-    <h1 class="heading"><span>snoepmixen</span> </h1>
+    <h1 class="heading"><span>Snoepmixen</span> </h1>
 
     <div class="box-container">
 <?php

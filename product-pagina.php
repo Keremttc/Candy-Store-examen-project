@@ -67,10 +67,10 @@ if (isset($_GET['id'])) {
         echo '</div>';
         echo '</div>';
     } else {
-        echo "Product not found.";
+        echo "Product niet gevonden.";
     }
 } else {
-    echo "Product ID not provided in the URL.";
+    echo "Product ID niet in de URL.";
 }
 ?>
 

@@ -2,12 +2,12 @@
 
   <footer>
       <div class="col">
-        <h4>contact</h4>
+        <h4>Bedrijf Informatie</h4>
         <p><strong>Adres:</strong> Westcoast</p>
         <p><strong>KVK:</strong> 70560978</p>
         <p><strong>BTW nummer:</strong> NL858374511B01</p>
-        <p><strong>Telefoonnummer:</strong> 05494939</p>
-        <p><strong>Uren beschikbaar:</strong> 10:00 - 17:00 Ma - Vrij</p>
+        <p><strong>Telefoonnummer:</strong> +31 6 12345678</p>
+        <p><strong>Email:</strong> info@chopperscandy.nl</p>
       </div>
 
 
@@ -23,7 +23,7 @@
       
       <div class="col">
         <h4>Mijn account</h4>
-        <a href="#">Bekijk winkelwagen</a>
+        <a href="winkelwagen.php">Bekijk winkelwagen</a>
         <a href="#">Bekijk favorieten</a>
         <a href="#">Track mijn order</a>
         <a href="contact.php">Help</a>
