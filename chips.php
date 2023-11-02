@@ -71,9 +71,11 @@
                  while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
                   ?>
 
+            <?php $product_id = $row['product_id'];?>   
+
                 <div class="box">
                         <div class="image">            
-                            <img src="<?php echo $row['image']?>" alt="">
+                        <a href="product-pagina.php?id=<?php echo $product_id;?>"><img src="<?php echo $row['image']?> " alt=""></a>
                             <div class="icons">
                               <a href="#" class="fas fa-heart"></a>
                               <a href="#" class="cart-btn">Toevoegen</a>

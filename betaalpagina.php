@@ -76,6 +76,9 @@
             <label for="nameOnCard">Naam op Kaart</label>
             <input type="text" id="nameOnCard" name="nameOnCard" required>
 
+            <label for="adres">Adres</label>
+            <input type="text" id="adres" name="adres" required>
+
             <label for="country">Factureringsland</label>
             <select id="country" name="country" required>
                 <option value="us">Nederland</option>

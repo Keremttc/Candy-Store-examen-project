@@ -408,6 +408,7 @@ header .fa-bars{
         flex-wrap: wrap;
         justify-content: space-between;
         background-color: #e3c0d8;
+        padding: 40px;
       }
 
       footer .col {
@@ -490,3 +491,6 @@ header .fa-bars{
         border: none;
         cursor: pointer;
     }
+    .add-to-cart-button:hover, .buy-now-button:hover {
+    color: black;
+  }

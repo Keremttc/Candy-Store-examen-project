@@ -58,7 +58,7 @@ if (isset($_GET['id'])) {
         echo '<div class="button-container">';
         echo '<button class="add-to-cart-button">Voeg toe aan winkelwagen</button>';
         echo '<br> <br>';
-        echo '<button class="buy-now-button">Koop nu</button>';
+        echo '<a href="betaalpagina.php"><button class="buy-now-button">Koop nu</button></a>';
         echo '</div>';
         echo '</div>';
         echo '</div>';
@@ -69,6 +69,9 @@ if (isset($_GET['id'])) {
     echo "Product ID not provided in the URL.";
 }
 ?>
+
 </body>
+
 <?php include "includes/footer.php";?>
+
 </html>

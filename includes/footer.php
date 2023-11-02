@@ -1,6 +1,6 @@
   <!-- footer sectie begint -->
 
-  <footer class="footer">
+  <footer>
       <div class="col">
         <h4>contact</h4>
         <p><strong>Adres:</strong> Westcoast</p>
