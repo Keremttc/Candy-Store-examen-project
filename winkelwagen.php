@@ -92,7 +92,7 @@
         </div>
         <a href="betaalpagina.php"><button type="submit">Betalen</button></a>
         <br>
-        <a href="home.php"><button type="submit">Home</button></a>
+        <a href="home.php"><button type="submit">Terug</button></a>
     </div>
 </body>
 </html>
