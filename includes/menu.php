@@ -14,9 +14,10 @@
     <a href="Contact.php">Contact</a>
 </nav>
 
+
+<input type="text" class="search" placeholder="Search" name="search" />
 <div class="icons">
     <!-- <a href="#" class="fa fa-search"></a> -->
-    <input type="text" name="search" placeholder="Search.."> 
     <a href="#" class="fas fa-heart"></a>
     <a href="winkelwagen.php" class="fas fa-shopping-cart"></a>
     <a href="#" id="openModal" class="fas fa-user"></a>
@@ -25,33 +26,22 @@
 
 <style>
 
-input[name=search] {
-  width: 130px;
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  font-size: 16px;
-  background-color: white;
-  background-image: url('images/searchicon.png');
-  background-position: 10px 10px; 
-  background-repeat: no-repeat;
-  padding: 12px 20px 12px 40px;
-  -webkit-transition: width 0.4s ease-in-out;
-  transition: width 0.4s ease-in-out;
+/* search bar styling */
+.search {
+  padding: 0.5em;
+  font-size: 1em;
+  border: 0;
+  border-bottom: 2px solid #ff9cb4;
+  width: 20%;
+  -webkit-box-shadow: none;
+  box-shadow: 0;
+  color: #ff9cb4;
+  outline: none;
+  
+  &:focus{
+    border-bottom-color: #ff9cb4;
+  }
 }
 
-input[name=search]:focus {
-  width: 100%;
-}
-    input[name=search] {
-  width: 130px;
-  -webkit-transition: width 0.4s ease-in-out;
-  transition: width 0.4s ease-in-out;
-    }
-
-    /* When the input field gets focus, change its width to 100% */
-    input[name=search]:focus {
-    width: 100%;
-    }
 </style>
 

@@ -453,6 +453,7 @@ header .fa-bars{
         justify-content: space-between;
         align-items: center;
         padding: 20px;
+        margin-top: 60px;
     }
     .product-image {
         flex: 2;

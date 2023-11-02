@@ -25,7 +25,8 @@ if (isset($_GET['id'])) {
                 producten.product AS 'product_naam',
                 producten.productsoort AS 'product_soort',
                 producten.prijs AS 'prijs',
-                producten.image AS 'image'
+                producten.image AS 'image',
+                producten.informatie AS 'ingredienten'
             FROM 
                 `producten`
             WHERE
@@ -46,6 +47,7 @@ if (isset($_GET['id'])) {
         $product_type = $row['product_soort'];
         $product_price = $row['prijs'];
         $product_image = $row['image'];
+        $product_ingredients = $row['ingredienten'];
 
         echo '<div class="product-container">';
         echo '<div class="product-image">';
@@ -55,6 +57,8 @@ if (isset($_GET['id'])) {
         echo '<div class="product-title">' . $product_name . '</div>';
         echo '<div class="product-price">€' . number_format($product_price, 2) . '</div>';
         echo '<div class="product-description">' . $product_type . '</div>';
+        echo '<br>';
+        echo '<div class="product-description">' . $product_ingredients . '</div>';
         echo '<div class="button-container">';
         echo '<button class="add-to-cart-button">Voeg toe aan winkelwagen</button>';
         echo '<br> <br>';
