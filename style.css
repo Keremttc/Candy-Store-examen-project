@@ -444,3 +444,49 @@ header .fa-bars{
         text-align: center;
       }
 
+
+      /* product pagina content  */
+
+      .product-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+    .product-image {
+        flex: 2;
+        position: relative;
+        left: 200px;
+        top: 70px;
+    }
+    .product-image img {
+        width: 50%;
+        max-width: 50%;
+        height: auto;
+    }
+    .product-info {
+        flex: 1;
+        padding: 20px;
+        position: relative;
+        right: 200px;
+    }
+    .product-title {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .product-price {
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .product-description {
+        margin-bottom: 20px;
+    }
+    .add-to-cart-button, .buy-now-button {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+    }
