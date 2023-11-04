@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -17,7 +18,9 @@
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             display: flex;
-            margin-top:100px;
+            flex-wrap: wrap; /* Added for responsiveness */
+            justify-content: center; /* Center align the content */
+            margin-top: 60px; 
         }
 
         #contact-info {
@@ -61,13 +64,22 @@
         button:hover {
             background-color: #0056b3;
         }
+
+        /* Media query voor kleinere schermen */
+        @media (max-width: 768px) {
+            #contact-container {
+                flex-direction: column; 
+                max-width: 100%; 
+            }
+
+            #contact-info, #contact-form {
+                flex: 1; 
+            }
+        }
     </style>
 </head>
 <body>
-
-
-        <!-- Contact form start  -->
-
+    <!-- Contact form start -->
     <div id="contact-container">
         <div id="contact-info">
             <h1>Chopper's <br> Candy Store</h1>
@@ -94,8 +106,6 @@
             </form>
         </div>
     </div>
-    
-        <!-- Contact form eind  -->
-
+    <!-- Contact form end -->
 </body>
 </html>
