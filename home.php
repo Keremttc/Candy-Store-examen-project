@@ -57,7 +57,7 @@
       <h3>Vers snoepgoed!</h3>
       <span>Weet wat je eet!</span>
       <p>Opzoek naar halal, glutenvrij of vegan snoep? Wij hebben het allemaal. Vandaag besteld is morgen in huis</p>
-      <a href="#" class="btn">shop nu</a>
+      <a href="snoep.php" class="btn">Shop nu!</a>
 
     </div>
   </section>
