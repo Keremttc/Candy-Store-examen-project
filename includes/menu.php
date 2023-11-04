@@ -56,6 +56,8 @@
       window.location.href = '/Candy-Store-examen-project/chips.php';
     } else if (searchValue === 'drinken') {
       window.location.href = '/Candy-Store-examen-project/softdrink.php';
+    } else if (searchValue === 'softdrink') {
+      window.location.href = '/Candy-Store-examen-project/softdrink.php';
     } else if (searchValue === 'contact') {
       window.location.href = '/Candy-Store-examen-project/contact.php';
     } else {
