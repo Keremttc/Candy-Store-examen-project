@@ -102,10 +102,18 @@
                 <label for="message">Bericht</label>
                 <textarea id="message" name="message" rows="6" required></textarea>
 
-                <button type="submit">Versturen</button>
+                <button type="submit" onclick="messageOn()" >Versturen</button>
             </form>
         </div>
     </div>
     <!-- Contact form end -->
 </body>
+
+<script>
+
+function messageOn() {
+    alert('Uw bericht is verstuurd naar de Service Team!.');
+}
+
+</script>
 </html>

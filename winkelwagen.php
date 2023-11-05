@@ -74,21 +74,19 @@
         <h2>Winkelwagen</h2>
         <ul class="product-list">
             <li class="product-item">
-                <span class="product-name">Product 1</span>
-                <span class="product-price">€19.99</span>
+                <img src="https://drinkprime.uk/cdn/shop/files/PrimeHydration_UK_1serve_500ml_BlueRaspberry_0000_800x.png?v=1697126350" alt="" style="width: 10%;">
+                <span class="product-name">Prime Blue Raspperry</span>
+                <span class="product-price">€4.99</span>
             </li>
             <li class="product-item">
-                <span class="product-name">Product 2</span>
-                <span class="product-price">€29.99</span>
-            </li>
-            <li class="product-item">
-                <span class="product-name">Product 3</span>
-                <span class="product-price">€39.99</span>
+                <img src="https://www.renassweets.nl/cdn/shop/files/Taki_s.png?v=1687012292&width=2040" alt="" style="width: 10%;">
+                <span class="product-name">Takis Fuego</span>
+                <span class="product-price">€3.99</span>
             </li>
         </ul>
         <div class="total">
             <span>Totaal:</span>
-            <span>€89.97</span>
+            <span>€8.98</span>
         </div>
         <a href="betaalpagina.php"><button type="submit">Betalen</button></a>
         <br>

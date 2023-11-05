@@ -97,10 +97,23 @@
                     <!-- Add more payment methods as needed -->
                 </select>
             </div>
-            <button type="submit">Betaling Bevestigen</button>
+            <button type="submit" onclick="paidStatus()">Betaling Bevestigen</button>
         </form>
     </div>
 
             <!-- Betaalgegevens form div eind -->
 </body>
+<script>
+
+function paidStatus() {
+    alert("Bedankt voor uw bestelling, bekijk gegevens via uw mail inbox!");
+    
+    // Functie stuurt je naar de homepagina na enkele seconden
+    setTimeout(function() {
+        window.location.href = '/Candy-Store-examen-project/home.php';
+    }, 2000); // 2000 milliseconds = 2 seconds
+}
+
+
+</script>
 </html>

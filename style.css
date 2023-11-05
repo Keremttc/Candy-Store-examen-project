@@ -138,7 +138,6 @@ header .fa-bars{
 }
 
 
-
 /* media queries voor mobiel */ 
 @media (max-width:991px) {
 
@@ -197,10 +196,10 @@ header .fa-bars{
         header  .navbar a{
         margin: 1.5rem;
         padding:1.5rem;
+        font-weight: bold;
         background: #fff;
         border: .1rem solid rgba(0,0,0,.1);
         display: block; 
-
         }
 
         .home .content h3{
