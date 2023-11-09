@@ -21,6 +21,8 @@
   <?php include "includes/menu.php"; ?>
 
   </header>
+
+  <!-- User Story 7 -->
   <div class="announcement-bar">
     <p>🎉 GRATIS VERZENDING BIJ BESTELLINGEN BOVEN €50 🚚</p>
   </div>

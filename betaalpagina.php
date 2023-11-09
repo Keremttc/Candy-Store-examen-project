@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Betalen</title>
+
+<!-- betaalpagina styling Recep -->
+
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -61,6 +64,8 @@
     </style>
 </head>
 <body>
+
+        <!-- User Story 4 -->
  
         <!-- Betaalgegevens form div start -->
     <div class="container">
@@ -104,6 +109,8 @@
             <!-- Betaalgegevens form div eind -->
 </body>
 <script>
+
+// Melding
 
 function paidStatus() {
     alert("Bedankt voor uw bestelling, bekijk gegevens via uw mail inbox!");

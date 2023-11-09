@@ -26,6 +26,8 @@
 
   <!-- home sectie begin -->
 
+  <!-- User Story 5 -->
+
   <section class="home" id="home">
 
     <div class="content">

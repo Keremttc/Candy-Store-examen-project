@@ -1,4 +1,4 @@
-<!-- Database connectie met localhost -->
+<!-- Database connectie met localhost Recep -->
 
 <?php
 $servername = "localhost";

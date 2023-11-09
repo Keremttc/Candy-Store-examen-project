@@ -1,4 +1,4 @@
-  <!-- footer sectie begint -->
+  <!-- footer sectie begint Kerem-->
 
   <footer>
       <div class="col">

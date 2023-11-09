@@ -161,6 +161,8 @@ header .fa-bars{
 
 }
 
+/* <!-- User Story 7 --> */
+
 .announcement-bar {
   position: sticky;
   background-color: #007bff;
@@ -183,6 +185,8 @@ header .fa-bars{
     font-size: 14px; /* Reduce the font size for mobile screens */
   }
 }
+
+/* <!-- User Story 7 END --> */
 
 
 @media (max-width:768px){

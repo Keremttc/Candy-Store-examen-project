@@ -44,6 +44,8 @@
 
   <!-- product sectie start -->
 
+  <!-- User Story 2  -->
+
   <section class="products" id="products">
 
     <h1 class="heading"><span>Snoepmixen</span> </h1>

@@ -2,6 +2,9 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Contact form styling Recep -->
+
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -79,6 +82,8 @@
     </style>
 </head>
 <body>
+
+  <!-- User Story 5 -->
     <!-- Contact form start -->
     <div id="contact-container">
         <div id="contact-info">

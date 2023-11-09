@@ -14,6 +14,9 @@
 <?php include "includes/menu.php";?>
 </header>
 <body>
+
+<!-- User Story 3 & 8 -->
+
  <?php
 
 if (isset($_GET['id'])) {

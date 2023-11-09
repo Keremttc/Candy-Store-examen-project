@@ -3,7 +3,13 @@
 <input type="checkbox" name="" id="toggler">
 <label for="toggler" class="fas fa-bars"></label>
 
+<!-- Logo nav -->
+
 <a href="home.php"><img src="images/choppper.png" class="logo" alt=""></a>
+
+<!-- Pagina knoppen  -->
+
+<!-- User Story 1  -->
 
 <nav class="navbar">
     <a href="home.php">Home</a>
@@ -13,6 +19,11 @@
     <a href="Contact.php">Contact</a>
 </nav>
 
+<!-- Pagina knoppen eind -->
+
+<!-- Search bar en extra knoppen -->
+
+<!-- User Story 6 -->
 
 <input type="search" id="search" placeholder="Search">
 <div class="icons">
@@ -25,7 +36,8 @@
 
 <style>
 
-/* search bar styling */
+/* search bar styling kerem */
+/* <!-- User Story 6 --> */
 #search {
   padding: 0.5em;
   font-size: 1em;
@@ -44,7 +56,11 @@
 
 </style>
 
+<!-- Zoekbalk functie (Recep) -->
+
 <script>
+
+  /* <!-- User Story 6 --> */
   const searchInput = document.getElementById('search');
 
   searchInput.addEventListener('change', function() {
