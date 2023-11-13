@@ -139,6 +139,7 @@ header .fa-bars{
 
 
 /* media queries voor mobiel */ 
+/* Als het scherm niet breder is dan 991 pixels, doe dan iets anders." */
 @media (max-width:991px) {
 
     html{
@@ -181,8 +182,8 @@ header .fa-bars{
 
 @media (max-width: 767px) {
   .announcement-bar {
-    top: 110px; /* Adjust the top position for mobile screens */
-    font-size: 14px; /* Reduce the font size for mobile screens */
+    top: 110px; /* Pas de bovenste positie aan voor mobiele schermen */
+    font-size: 14px; /* Verklein de lettergrootte voor mobiele schermen */
   }
 }
 
@@ -199,7 +200,9 @@ header .fa-bars{
         top:100%; left:0; right:0;
         background: #e3c0d8;
         border-top: .1rem solid rgba(0,0,0,.1);
-        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        /* "Knip een stukje uit (of laat alleen een bepaald deel zien)
+         van hetgeen binnen deze vorm valt." */
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0); 
         }
         header  #toggler:checked ~ .navbar{
             clip-path:polygon(0 0, 100% 0, 100% 100%, 0% 100%);
