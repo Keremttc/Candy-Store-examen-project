@@ -106,6 +106,7 @@
         </form>
     </div>
 
+    
             <!-- Betaalgegevens form div eind -->
 </body>
 <script>
