@@ -29,7 +29,7 @@
 <div class="icons">
     <!-- <a href="#" class="fa fa-search"></a> -->
     <a href="#" class="fas fa-heart"></a>
-    <a href="winkelwagen.php" class="fas fa-shopping-cart"></a>
+    <?php include "includes/cart.php";?>
     <a href="#" id="openModal" class="fas fa-user"></a>
 
 </div>

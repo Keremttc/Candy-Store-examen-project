@@ -18,4 +18,6 @@ window.onclick = function(event) {
 }
 
 
+// Winkelwagen code
+
 
