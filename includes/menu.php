@@ -1,4 +1,13 @@
+<!DOCTYPE html>
 <?php include "includes/db.php";?> 
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
 <input type="checkbox" name="" id="toggler">
 <label for="toggler" class="fas fa-bars"></label>
@@ -28,11 +37,12 @@
 <input type="search" id="search" placeholder="Search">
 <div class="icons">
     <!-- <a href="#" class="fa fa-search"></a> -->
+    <a href="#" id="openModal" class="fas fa-user"></a>
     <a href="#" class="fas fa-heart"></a>
     <?php include "includes/cart.php";?>
-    <a href="#" id="openModal" class="fas fa-user"></a>
-
 </div>
+  
+</body>
 
 <style>
 
@@ -82,4 +92,7 @@
     }
   });
 </script>
+
+</html>
+
 

@@ -7,20 +7,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 </head>
 <style>
-    * {
-  margin: 0;
-  padding: 0;
-}
-
-
-img {
-  max-width: 100%;
-  display: block;
-}
-
 .cart-btn {
   position: relative;
-  display: flex;
   justify-content: flex-end;
 }
 
@@ -219,32 +207,13 @@ img {
   .product-quantity {
     margin: .5em 0 .5em 0
   }
-  
 }
 
-a.btn {
-  text-decoration: none;
-  color: #666;
-   border: 2px solid #666;
-   padding: 10px 15px;
-   display: inline-block;
-   margin-left: 5px;
-}
-a.btn:hover{
-   background: #666;
-   color: #fff;
-    transition: .3s;
--webkit-transition: .3s;
-}
 </style>
 <body>
 
-<div class="cart-btn">
-        <i id="cart" class="fas fa-shopping-cart"></i>
-      <span class ="cart-quantity">0</span>
-  </div>
-
-<div class="cart-modal-overlay">
+     <!-- Start DEMO HTML (Use the following code into your project)-->
+     <div class="cart-modal-overlay">
     <div class="cart-modal">
       <i id="close-btn" class="fas fa-times"></i>
         <h1 class="cart-is-empty">Cart is empty</h1>
@@ -252,11 +221,19 @@ a.btn:hover{
         <div class="product-rows">
         </div>
         <div class="total">
-          <h1 class="cart-total">Totaal</h1>
-            <span class="total-price">€0</span>
-              <button class="purchase-btn">Kopen</button>
+          <h1 class="cart-total">TOTAL</h1>
+            <span class="total-price">$0</span>
+              <button class="purchase-btn">PURCHASE</button>
         </div>
       </div>
+</div>
+      
+<!--   end of cart modal -->
+  <div class="cart-btn">
+    <i id="cart" class="fas fa-shopping-cart"></i>
+      <span class ="cart-quantity">0</span>
+  </div>
+  
 </body>
 
 <script>
