@@ -37,10 +37,11 @@
 <input type="search" id="search" placeholder="Search">
 <div class="icons">
     <!-- <a href="#" class="fa fa-search"></a> -->
-    <a href="#" id="openModal" class="fas fa-user"></a>
-    <a href="#" class="fas fa-heart"></a>
+    <a href="#" id="openModal" class="fa-solid fa-user"></a>
+    <a href="#" class="fa-solid fa-heart"></a>
+    <a href="winkelwagen.php" class="fas fa-cart-shopping "></a>
 </div>
-<?php include "includes/cart.php";?>
+
   
 </body>
 
