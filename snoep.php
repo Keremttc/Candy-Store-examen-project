@@ -79,7 +79,7 @@
             <a href="product-pagina.php?id=<?php echo $product_id;?>"><img src="<?php echo $row['image']?> " alt=""></a>
              <div class="icons">
                <a href="#" class="fas fa-heart"></a>
-               <a href="#" class="cart-btn">Toevoegen</a>
+               <a href="#" class="add-to-cart">Toevoegen</a>
                <a href="#" class="fas fa-share"></a>
            </div>
          </div>

@@ -13,6 +13,7 @@
     transition: .2s linear;
 } 
 
+
 html{
     font-size: 62,5%;
     scroll-behavior: smooth;
@@ -275,8 +276,6 @@ header .fa-bars{
 
       }
 
-
-
       .products .box-container .box .image .icons a{
         height: 5rem;
         line-height: 5rem;
@@ -286,7 +285,7 @@ header .fa-bars{
         color:#fff;
       }
 
-      .products .box-container .box .image .icons .cart-btn{
+      .products .box-container .box .image .icons .add-to-cart{
         border-left: 1.re, solid #fff7;
         border-right: 1.re, solid #fff7;
         width: 100%;

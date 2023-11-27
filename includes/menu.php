@@ -39,8 +39,8 @@
     <!-- <a href="#" class="fa fa-search"></a> -->
     <a href="#" id="openModal" class="fas fa-user"></a>
     <a href="#" class="fas fa-heart"></a>
-    <?php include "includes/cart.php";?>
 </div>
+<?php include "includes/cart.php";?>
   
 </body>
 
