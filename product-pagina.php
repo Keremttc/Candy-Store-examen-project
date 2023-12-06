@@ -63,7 +63,7 @@ if (isset($_GET['id'])) {
         echo '<br>';
         echo '<div class="product-description">' . $product_ingredients . '</div>';
         echo '<div class="button-container">';
-        echo '<button class="add-to-cart-button">Voeg toe aan winkelwagen</button>';
+        echo '<button onClick="getMessage()" class="add-to-cart-button">Voeg toe aan winkelwagen</button>';
         echo '<br> <br>';
         echo '<a href="betaalpagina.php"><button class="buy-now-button">Koop nu</button></a>';
         echo '</div>';
@@ -79,6 +79,15 @@ if (isset($_GET['id'])) {
 
 </body>
 
+<script>
+
+function getMessage(){
+    alert('Product toegevoegd aan winkelwagen!')
+}
+
+</script>
+
 <?php include "includes/footer.php";?>
 
 </html>
+

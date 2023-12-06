@@ -184,7 +184,10 @@ span.price {
 </body>
 
 <script>
-    function paidStatus() {
+  
+// Functie voor betaalpagina
+
+function paidStatus() {
     alert("Bedankt voor uw bestelling, bekijk gegevens via uw mail inbox!");
     
     // Functie stuurt je naar de homepagina na enkele seconden

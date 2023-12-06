@@ -75,8 +75,8 @@
          <div class="image">            
          <a href="product-pagina.php?id=<?php echo $product_id;?>"><img src="<?php echo $row['image']?> " alt=""></a>
              <div class="icons">
-               <a href="#" class="fas fa-heart"></a>
-               <a href="#" class="add-to-cart">Toevoegen</a>
+             <a href="#" onClick="getFavorite()" class="fas fa-heart"></a>
+               <a href="#" onClick="getMessage()" class="add-to-cart">Toevoegen</a>
                <a href="#" class="fas fa-share"></a>
            </div>
          </div>
@@ -96,6 +96,18 @@
   <!-- product sectie eindigt -->
 
 </body>
+
+<script>
+
+function getMessage(){
+    alert('Product toegevoegd aan winkelwagen!')
+}
+
+function getFavorite() {
+  alert('Product toegoevoegd aan favorieten!');
+}
+
+</script>
 
  <!-- footer sectie begint -->
 

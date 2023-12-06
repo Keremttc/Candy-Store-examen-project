@@ -6,6 +6,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <script src="/script.js"></script> 
 </head>
 <body>
 
@@ -66,33 +67,6 @@
 }
 
 </style>
-
-<!-- Zoekbalk functie (Recep) -->
-
-<script>
-
-  /* <!-- User Story 6 --> */
-  const searchInput = document.getElementById('search');
-
-  searchInput.addEventListener('change', function() {
-    const searchValue = this.value.trim().toLowerCase(); 
-
-    if (searchValue === 'snoep') {
-      window.location.href = '/Candy-Store-examen-project/snoep.php';
-    } else if (searchValue === 'chips') {
-      window.location.href = '/Candy-Store-examen-project/chips.php';
-    } else if (searchValue === 'drinken') {
-      window.location.href = '/Candy-Store-examen-project/softdrink.php';
-    } else if (searchValue === 'softdrink') {
-      window.location.href = '/Candy-Store-examen-project/softdrink.php';
-    } else if (searchValue === 'contact') {
-      window.location.href = '/Candy-Store-examen-project/contact.php';
-    } else {
-      // Pagina bestaat niet alert
-      alert('Kon pagina niet vinden, probeer nogmaals.');
-    }
-  });
-</script>
 
 </html>
 
