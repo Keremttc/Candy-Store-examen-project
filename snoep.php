@@ -121,6 +121,8 @@
 
 <script>
 
+  // Meldingen voor knoppen Recep
+
 function getMessage(){
     alert('Product toegevoegd aan winkelwagen!')
 }

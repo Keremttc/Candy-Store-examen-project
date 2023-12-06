@@ -4,6 +4,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
+
+/* Styling en Fucnties Recep */
+
 body {
   font-family: Arial;
   font-size: 17px;
@@ -185,7 +188,7 @@ span.price {
 
 <script>
   
-// Functie voor betaalpagina
+// Bericht funcite en terug sturen naar homepage Recep
 
 function paidStatus() {
     alert("Bedankt voor uw bestelling, bekijk gegevens via uw mail inbox!");

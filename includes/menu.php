@@ -48,7 +48,7 @@
 
 <style>
 
-/* search bar styling kerem */
+/* search bar styling Kerem */
 /* <!-- User Story 6 --> */
 #search {
   padding: 0.5em;

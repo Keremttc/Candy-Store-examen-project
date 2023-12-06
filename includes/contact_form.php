@@ -85,7 +85,7 @@
 
   <!-- User Story 5 -->
   
-    <!-- Contact form start -->
+    <!-- Contact form start Recep-->
     <div id="contact-container">
         <div id="contact-info">
             <h1>Chopper's <br> Candy Store</h1>
@@ -116,6 +116,8 @@
 </body>
 
 <script>
+
+// Meldingen aangeven tijdens verzending Recep
 
 function messageOn() {
     alert('Uw bericht is verstuurd naar de Service Team!.');
